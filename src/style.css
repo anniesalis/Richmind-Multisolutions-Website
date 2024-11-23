@@ -1,3 +1,124 @@
-header {
-    background-image: url("../ images/richmind-logo.png");
+body {
+    background-color: black;
+font-family: "poppins";
 }
+header {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  
+    url("/images/richmind.jpg");
+    color: white;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    
+}
+
+h3 {
+    text-align: center;color: white;
+}
+ .learn-more {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    color: black;
+    text-decoration: none;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.travel {
+    padding-top: 20px;
+    font-size: 30px;
+letter-spacing: 5px;    
+}
+
+
+footer {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 450px 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/richmind.jpg);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    line-height: 1.5;
+    padding: 20px;
+    font-size: 12px;
+    
+}
+
+.about-lisbon a {
+    color: white;
+    
+    text-align: center;
+    
+}
+
+.address {
+font-weight: 900;
+}
+.about-me {
+    
+    margin-left: 30px;
+}
+.about-website {
+    padding-left: 30px;
+}
+.boxes {
+   
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box {
+ 
+    color: white;
+    text-align: justify;
+    
+
+    }
+   .box img {
+    
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .clean-building {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-gap: 15px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .cafes {
+        display: grid;
+        grid-template-columns: 145px 145px 145px 145px 145px 145px;
+        grid-gap: 5px;
+        justify-content: center;
+        padding: 2px;
+    }
+
+    h2 stan {
+        margin: 20px;
+        background-color: blanchedalmond;
+        color: black;
+        padding: 5px;
+    }
