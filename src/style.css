@@ -1,6 +1,10 @@
 body {
-    background-color: black;
+    margin: 0;
+    height: 100vh;
+    background-color: linear-gradient(135deg, #ff007c, #1d1e30 #1a237e, #d500f9);
+    background-size: 400% 400%;
 font-family: "poppins";
+
 }
 header {
     text-align: center;
@@ -29,7 +33,7 @@ h3 {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 5rem;;
     font-weight: 700;
 }
 .container {
@@ -63,7 +67,6 @@ footer {
 
 .about-lisbon a {
     color: white;
-    
     text-align: center;
     
 }
@@ -121,4 +124,12 @@ font-weight: 900;
         background-color: blanchedalmond;
         color: black;
         padding: 5px;
+    }
+
+    @media (max-width: 756px) {
+header {
+
+    
+}
+        
     }
