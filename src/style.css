@@ -1,8 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background-color: linear-gradient(135deg, #ff007c, #1d1e30 #1a237e, #d500f9);
-    background-size: 400% 400%;
+    background-color: black;
 font-family: "poppins";
 
 }
@@ -16,73 +15,79 @@ header {
     
 }
 
+    
 h3 {
-    text-align: center;color: white;
-}
- .learn-more {
     text-align: center;
+    color: white;
+}
+ .contact {
+    max-width: 100px;
+    text-align: center;
+    margin: 0 auto;
     padding: 10px;
     border: 1px solid white;
-    color: black;
-    text-decoration: none;
+    color: white;
     background-color: whitesmoke;
+    box-shadow: 0 4px 7px whitesmoke ;
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
    
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 5rem;;
-    font-weight: 700;
+    font-weight: 600;
 }
 .container {
-    max-width: 1300px;
+    max-width: 960px;
     margin: 0 auto;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    
+    opacity: 0; 
+    margin: 100px auto;
+   padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
 }
 
-.travel {
-    padding-top: 20px;
-    font-size: 30px;
-letter-spacing: 5px;    
+p {
+    text-align: justify;
 }
+
+
 
 
 footer {
-    margin: 0 auto;
+    margin: 20px;
     display: grid;
-    grid-template-columns: 300px 450px 500px;
+    grid-template-columns: 250px 350px 350px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/richmind.jpg);   
+    position: relative;
+    justify-content: space-evenly;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     line-height: 1.5;
     padding: 20px;
     font-size: 12px;
+
     
 }
 
-.about-lisbon a {
-    color: white;
-    text-align: center;
-    
-}
 
-.address {
-font-weight: 900;
-}
-.about-me {
-    
-    margin-left: 30px;
-}
-.about-website {
-    padding-left: 30px;
+
+
+.about-us {
+    line-height: 1.5;
+
 }
 .boxes {
-   
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-gap: 15px;
@@ -92,7 +97,7 @@ font-weight: 900;
 
 .box {
  
-    color: white;
+    
     text-align: justify;
     
 
@@ -123,13 +128,38 @@ font-weight: 900;
         margin: 20px;
         background-color: blanchedalmond;
         color: black;
-        padding: 5px;
+        padding: 10px;
+        border-radius: 20px;
+
     }
-
-    @media (max-width: 756px) {
-header {
-
-    
+  
+  @media (max-width: 756px) {
+.container {
+    max-width: 70%;
 }
+    h1 {
+        font-weight: 400;
+    }
+    footer {
+        margin: 5px;
+        font-size: 12px;
+        display: grid;
+        grid-template-columns: 130px 200px 170px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/richmind.jpg);   
+        position: relative;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        line-height: 1.5;
+        padding: 20px;
+        font-size: 12px;
+        
+    }
+    h2 {
+        font-size: 14px;
+    }
+    
+
         
     }
